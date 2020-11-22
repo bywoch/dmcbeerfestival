@@ -1,0 +1,213 @@
+@charset "euc-kr";
+@import url(http://www.dmcbeerfestival.com/css/reset.css);
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Josefin+Sans|Jua|Mr+Dafoe|Nanum+Gothic|Nanum+Pen+Script|Noto+Sans|Noto+Sans+KR|Open+Sans|Saira+Stencil+One&display=swap');
+
+#wrap {width: 100%; height: 100%; overflow: hidden;}
+#header_wrap {width: 100%; height: 340px; background: #0e0c19;}
+#header {width: 100%; max-width: 1920px; height: 340px; position: relative; background: #000 url(http://www.dmcbeerfestival.com/images/event/header_bg_01.jpg) no-repeat 50% 0px;}
+#header h1 {width: 475px; height: 140px; position: absolute; top: 80px; left: 50%; margin-left: -620px; z-index: 1;}
+#header h1 a, #header h1 a img {display: block; width: 100%; height: auto;}
+#header h1 a img {}
+#header .nav_op_btn {width: 36px; height: 32px; position: absolute; top: 45px; right: 15px; background: url(http://www.dmcbeerfestival.com/images/event/nav_btn_open01.png) 0 0 no-repeat; -webkit-background-size: cover; background-size: cover; cursor: pointer; display: none;}
+#header .nav_bx {width: 100%; max-width: 1180px; height: 100%; margin: 0 auto; position: relative;}
+#header .nav {position: absolute; right: 0; top: 36px;}
+#header .nav .nav_cl_btn {display: inline-block; position: absolute; top: 40px; right: 15px; width: 28px; height: 28px; background: url(http://www.dmcbeerfestival.com/images/event/nav_btn_close01.png) 0 0 no-repeat; -webkit-background-size: cover; background-size: cover; cursor: pointer; display: none;}
+#header .nav ul {}
+#header .nav ul li {color: #e6d85a; float: left; font-size: 20px; line-height: 17px; font-family: 'Noto Sans KR', sans-serif; border-left: 2px solid #88878c; padding: 0 25px;}
+#header .nav ul li:first-child {border-left: none; padding-left: 0;}
+#header .nav ul li a {}
+#container {width: 100%; background: url(http://www.dmcbeerfestival.com/images/event/section_bg_04.jpg) no-repeat 50% 0px; background-position: top; position: relative;}
+#container .section_top_txt {width: 100%; height: 80px; background: #e5d648; box-shadow: 0px 0px 35px 0px #000; position: absolute; z-index: 2; cursor: pointer;}
+#container .section_top_txt .st_txt_01 {width: 840px; font-size: 40px; color: #1a1a1a; font-family: 'Saira Stencil One', cursive; font-weight: bold; margin: 0 auto; padding-top: 18px;}
+#container .section_top_txt .st_txt_01 span {display: inline-block; vertical-align: top; margin-top: 5px;}
+#container .section_top_txt .st_txt_01 span.stt_01_sp01 {width: 484px; height: 33px; font-size: 0; background: url(http://www.dmcbeerfestival.com/images/event/st_txt_01.png) 0 0 no-repeat; vertical-align: top; margin-top: 5px;}
+#container .section_top_txt .st_txt_01 span.stt_01_sp02 {width: 324px; height: 38px; font-size: 0; background: url(http://www.dmcbeerfestival.com/images/event/st_txt_02.png) 0 0 no-repeat; vertical-align: top; margin-top: 1px;}
+#container .p_img_01, #container .p_img_02, #container .p_img_03 {position: absolute; z-index: 3;}
+#container .p_img_01 img, #container .p_img_02 img, #container .p_img_03 img {width: 100%;}
+#container .p_img_01 {left: 50%; top: -20px; margin-left: -610px;}
+#container .p_img_02 {top: 15px; right: 50%; margin-right: -500px;}
+#container .p_img_03 {width: 140px; top: -45px; right: 50%; margin-right: -610px;}
+#container .p_img_04 {display: none;}
+#container #main_visual {width: 100%; max-width: 1920px; height: 100%; position: relative; z-index: 1; padding-top: 80px; background: url(http://www.dmcbeerfestival.com/images/event/section_bg_05.jpg) no-repeat 50% 0; background-position: bottom;}
+#container .main_visual .mv_wrap {width: 100%; z-index: 7; top: -45px; height: 100%;}
+#container .main_visual .mv_wrap > p {font-size: 0;}
+#container .main_visual .mv_wrap .mv_txt_01 {width: 640px; height: 196px; background: url(http://www.dmcbeerfestival.com/images/event/mv_txt_01-img.png) 0 0 no-repeat; margin: 0 auto; margin-top: 40px;}
+#container .main_visual .mv_wrap .mv_txt_02 {width: 694px; height: 384px; background: url(http://www.dmcbeerfestival.com/images/event/mv_txt_02-img.png) 0 0 no-repeat; font-size: 0; position: relative; left: 120px;}
+#container .main_visual .mv_wrap .mv_es_box {width: 620px; height: 410px; }
+#container .main_visual .mv_wrap .mv_es_box img {width: 100%;}
+#container .main_visual .mv_wrap .mv_ctt_01 {width: 100%; max-width: 1314px; margin: 50px auto;}
+#container .main_visual .mv_wrap .mv_txt_02, #container .main_visual .mv_wrap .mv_es_box {float: left;}
+.ited_allbox {padding-bottom: 530px;}
+.itrd_wrap {width: 100%; height: auto;}
+.itw_01 {background: #d9e548;}
+.itw_02 {background: #a5e548;}
+.itw_03 {background: #63d557;}
+.itrd_wrap .ited_box {width: 100%; max-width: 1180px; min-width: 320px; height: 95px; position: relative; cursor: pointer;}
+.itrd_wrap .itw01_title.on {}
+.itrd_wrap .itw02_title.on {}
+.itrd_wrap .itw03_title.on {}
+.itrd_wrap .ited_box .itrd_p_img_01 {float: left;}
+.itrd_wrap .ited_box .itrd_p_img_02 {position: absolute; left: 50%; margin-left: 20%;}
+.itrd_wrap .ited_box .itrd_txt {display: inline-block; font-size: 0; width: 210px; height: 95px; vertical-align: top; margin: 0 auto; position: absolute; left: 50%; margin-left: -105px;}
+.itrd_wrap .ited_box .it_01 {background: url(http://www.dmcbeerfestival.com/images/event/itrd_txt_01.png) 0 0 no-repeat;}
+.itrd_wrap .ited_box .it_02 {background: url(http://www.dmcbeerfestival.com/images/event/itrd_txt_02.png) 0 0 no-repeat;}
+.itrd_wrap .ited_box .it_03 {background: url(http://www.dmcbeerfestival.com/images/event/itrd_txt_03.png) 0 0 no-repeat;}
+.itrd_wrap .ited_box .itrd_pl_ic {float: right; padding-top: 24px; padding-right: 2%;}
+.itrd_wrap .itrd_ctt_box {width: 100%; height: 100%; min-height: 80px; background: #fff; display: none;}
+.itrd_wrap .itrd_ctt_box .itrd_ctt_txt {width: 100%; max-width: 560px; min-width: 320px; height: 100%;}
+.itrd_wrap .itrd_ctt_box .itrd_ctt_txt .itrd_ctt_p {width: 50%; max-width: 280px; min-width: 150px; float: left; padding-top: 16px; padding-left: 10%; cursor: pointer;}
+.itrd_wrap .itrd_ctt_box .itrd_ctt_txt span {display: inline-block; width: 16px; height: 40px; background: url(http://www.dmcbeerfestival.com/images/event/itrd_arrow_icon.png) 0 7px no-repeat; float: left; padding: 0 25px;}
+.itrd_wrap .itrd_ctt_box .itrd_ctt_txt span.on {display: inline-block; width: 16px; height: 40px; background: url(http://www.dmcbeerfestival.com/images/event/itrd_arrow_icon_on.png) 0 7px no-repeat; float: left; padding: 0 25px;}
+.itrd_wrap .itrd_ctt_box .itrd_ctt_txt p {font-size: 30px; font-family: 'Noto Sans KR', sans-serif; float: left; display: inline-block;}
+.itrd_wrap .itrd_ctt_box .h_m p.on {color: #e9251f;}
+.itrd_wrap .itrd_ctt_box .c_s p.on {color: #e9251f;}
+.itrd_wrap .itrd_ctt_box .itrd_ctt_imgbx {width: 100%; max-width: 1180px; margin: 0 auto;}
+.itrd_wrap .itrd_ctt_box .itrd_ctt_imgbx img {display: inline-block; padding: 16px 0;}
+.itrd_wrap .itrd_ctt_box .line_beer {}
+.itrd_wrap .itrd_ctt_box .line_atst {display: none;}
+.itrd_wrap .itrd_ctt_box .line_atst img {width: 23%; margin-left: 2%; float: left;}
+.itrd_wrap .itrd_ctt_box .line_atst img:first-child {margin-left: 0;}
+.itrd_wrap .itrd_ctt_box .contact_bx {}
+.itrd_wrap .itrd_ctt_box .contact_bx img {width: 48%; margin-left: 2%; float: left;}
+.itrd_wrap .itrd_ctt_box .line_atst img:first-child {margin-left: 0;}
+.op_1024 {display: none;}
+.spsr_wrap {width: 100%; max-width: 1180px; margin: 0 auto; height: 100%; background: #fff;}
+.spsr_wrap .spsr_banner {width: 100%; padding: 10px 0 0 0;}
+.spsr_wrap .spsr_all {width: 100%; border-top: 2px solid #ccc;}
+.spsr_wrap .sp_a_fst {border-top: none;}
+.spsr_wrap .spsr_box p, .spsr_wrap .spsr_box img {float: left;}
+.spsr_wrap .spsr_box {width: 100%; height: auto;}
+.spsr_wrap .spsr_box p {width: 95px; height: 80px; font-family: 'Noto Sans KR', sans-serif; font-size: 24px; padding: 25px 10px;}
+.spsr_wrap .spsr_box img {display: inline-block; height: 78px;}
+#footer {width: 100%; height: 180px; background: #1a1a1a; text-align: center; font-family: 'Noto Sans KR', sans-serif; line-height: 38px; padding-top: 50px;}
+#footer p {color: #acacac; font-size: 18px; font-weight: 500;}
+#footer p span {font-size: 16px;}
+
+.pop_up {width: auto; max-width: 484px; height: auto; max-height: 300px; position: fixed; top: 80px; left: 50%; margin-left: 100px; z-index: 4;}
+.pop_up .pu_cb {width: 16px; height: 16px; background: url(http://www.dmcbeerfestival.com/images/event/closing_pop_upBtn.png) 0 0 no-repeat; background-size: cover; background-position: center; position: absolute; top: 20px; right: 20px; cursor: pointer; border: none;}
+
+
+@media (max-width: 1330px) {
+
+    #container .main_visual .mv_wrap .mv_ctt_01 {width: 100%; max-width: 100%; min-width: 100%; margin: 0 auto;}
+    #container .main_visual .mv_wrap .mv_txt_02 {position: static; left: 0;}
+    #container .main_visual .mv_wrap .mv_txt_02, #container .main_visual .mv_wrap .mv_es_box {float: none; margin: 0 auto;}
+
+}
+
+@media (max-width: 1228px) {
+
+    #header h1 {left: 50px; margin-left: 0;}
+
+}
+
+@media (max-width: 1200px) {
+
+    .itrd_wrap .itrd_ctt_box .itrd_ctt_imgbx {width: 96%;}
+
+}
+
+@media (max-width: 1170px) {
+
+    .pop_up {left: auto; margin-left: 0; right: 25px;}
+
+}
+
+@media (max-width: 1024px) {
+
+    #header h1 {left: 50px; margin-left: 0;}
+    #container #main_visual {height: 100%; padding-top: 130px; background: url(http://www.dmcbeerfestival.com/images/event/sm_bgimg_sub.jpg) no-repeat 50% 0; background-size: 100%; background-position: top;}
+    #container .main_visual .mv_wrap {background: none; height: 100%;}
+    #container .section_top_txt {height: 130px;}
+    #container .section_top_txt .st_txt_01 {width: 500px;}
+    #container .section_top_txt .st_txt_01 span {display: block;}
+    #container .section_top_txt .st_txt_01 span.stt_01_sp02 {margin-top: 15px;}
+    #container .main_visual .mv_wrap .mv_txt_01 {width: 100%; max-width: 700px; height: 38vw; max-height: 268px; background: url(http://www.dmcbeerfestival.com/images/event/mv_txt_01-mimg.png) 0 0 no-repeat; margin: 0 auto; background-size: 100%;}
+    #container .main_visual .mv_wrap .mv_txt_02 {width: 100%; max-width: 645px; height: 107vw; max-height: 658px; background: url(http://www.dmcbeerfestival.com/images/event/mv_txt_02-mimg.png) 0 0 no-repeat; margin: 0 auto; margin-top: 50px; background-size: 100%;}
+    #container .main_visual .mv_wrap > p {position: static; display: block;}
+    #container .main_visual .mv_wrap .mv_es_box {position: static; width: 100%; max-width: 720px; height: auto; margin: 0 auto; padding-top: 45px;}
+    .op_1024 {display: block;}
+    .ited_allbox {position: static; padding-top: 20px; padding-bottom: 0;}
+    #container .p_img_04 {display: block; width: 100%;}
+    #container .p_img_04 img {width: 100%;}
+    .itrd_wrap .itrd_ctt_box .contact_bx img {width: 98%; display: block; margin: 0 auto; float: none;}
+
+}
+
+@media (max-width: 768px) {
+
+    #header_wrap {height: 54vw;}
+    #header {height: 100%; background: #000 url(http://www.dmcbeerfestival.com/images/event/tbl_hd_bg.jpg) no-repeat 50% 0px; background-size: cover;}
+    #header h1 {position: relative; top: 80px; left: 30px; display: block; width: 70%;}
+    #header .nav_op_btn {display: block;}
+    #header .nav .nav_cl_btn {display: inline-block;}
+    #header .nav_bx {position: absolute; top: 0; right: -100%;}
+    #header .nav {top: 0; width: 100%; height: 100%; z-index: 3; background: #fff url(http://www.dmcbeerfestival.com/images/event/nav_mobile_bg01.png) 15% 100% no-repeat; background-size: 40%;}
+    #header .nav ul li {float: none; border-left: none; text-align: right; color: #1a1a1a; font-weight: bold; font-size: 26px; border-top: 1px solid #e5e5e5; width: 160px; padding: 20px 0px; margin-right: 60px;}
+    #header .nav ul li:first-child {border-top: none; padding-top: 45px;}
+    #container .main_visual .mv_wrap {padding-top: 30px;}
+    #container .main_visual .mv_wrap .mv_txt_02 {width: 96%;}
+    #container .p_img_01, #container .p_img_02, #container .p_img_03 {display: none;}
+    .itrd_wrap .itrd_ctt_box .line_atst img {width: 49%;}
+    .itrd_wrap .itrd_ctt_box .line_atst img.ml_n_1024 {margin-left: 0;}
+    .spsr_wrap {width: 100%; height: 100%;}
+    .spsr_wrap .spsr_all {width: 100%;}
+    .spsr_wrap .spsr_box {width: 660px;}
+    
+    .pop_up {top: 320px; right: auto; left: 50%; margin-left: -242px; width: 100%;}
+    
+}
+
+@media (max-width: 500px) {}
+
+@media (max-width: 480px) {
+
+    #header h1 {width: 80%; height: auto; position: static; padding-top: 40px; margin: 0 auto;}
+    #header .nav .nav_cl_btn {top: 22px; right: 5px; width: 18px; height: 18px;}
+    #header .nav ul li {font-size: 16px; width: 100px; padding: 10px 0px; margin-right: 45px;}
+    #header .nav ul li:first-child {padding-top: 25px;}
+    #header .nav_op_btn {width: 25px; height: 22px; top: 18px; right: 5px;}
+    #container .p_img_01 {top: 142px; margin-left: -230px;}
+    #container .p_img_02 {top: 75px; margin-right: -230px;}
+    #container .p_img_03 {display: none;}
+    #container #main_visual {z-index: 0;}
+    #container .main_visual .mv_wrap .mv_es_box {padding: 0;}
+    #container .main_visual .mv_wrap .mv_txt_01, #container .main_visual .mv_wrap .mv_txt_02 {width: 96%; padding-left: 2%; padding-right: 2%;}
+    #container .main_visual .mv_wrap .mv_txt_02 {margin-top: 20px;}
+    #container .section_top_txt .st_txt_01 {padding: 18px 2%;}
+    #container .section_top_txt .st_txt_01, #container .main_visual .mv_wrap .mv_es_box, #container .section_top_txt .st_txt_01 span.stt_01_sp01 {width: 100%;}
+    #container .section_top_txt .st_txt_01 span.stt_01_sp01, #container .section_top_txt .st_txt_01 span.stt_01_sp02 {-webkit-background-size: 100%; background-size: 100%;}
+    #container .section_top_txt .st_txt_01 span.stt_01_sp02 {width: 70%; margin-top: 5px;}
+    .spsr_wrap .spsr_box {width: 100%; max-width: 255px; margin: 0 auto; float: none;}
+    .spsr_wrap .spsr_box .pr_480_25 {padding-top: 18px; padding-right: 23px;}
+    .spsr_wrap .spsr_box p {font-size: 15px; width: 65px; height: auto; padding: 14px 10px; padding-left: 0;}
+    .spsr_wrap .spsr_box img {height: auto; width: 33.333% !important;}
+    .spsr_wrap .spsr_box img.pt_480_5px {padding-top: 5px;}
+    .itrd_wrap .ited_box, .itrd_wrap .ited_box .itrd_p_img_01, .itrd_wrap .ited_box .itrd_txt {height: 56px; padding-left: 2%;}
+    .itrd_wrap .ited_box .itrd_txt {background-size: 100%; background-position: center; width: 110px; height: 56px; margin-left: -55px;}
+    .itrd_wrap .ited_box .itrd_pl_ic {width: 30px; padding-top: 18px; margin-right: 5px;}
+    .itrd_wrap .ited_box .itrd_p_img_02 {height: 56px; margin-left: 20%;}
+    .itrd_wrap .itrd_ctt_box .itrd_ctt_txt {max-width: 320px; height: 40px;}
+    .itrd_wrap .itrd_ctt_box .itrd_ctt_txt .itrd_ctt_p {max-width: 150px; padding-top: 0;}
+    .itrd_wrap .itrd_ctt_box .itrd_ctt_txt span {padding: 0px 15px;}
+    .itrd_wrap .itrd_ctt_box .itrd_ctt_txt span.on {padding: 0px 15px;}
+    .itrd_wrap .itrd_ctt_box .itrd_ctt_txt p {width: calc(100% - 2em); text-align: center; font-size: 19px; padding-top: 5px;}
+    #footer {line-height: 28px;}
+    #footer p {font-size: 16px;}
+    #footer p span {font-size: 14px;}
+    #footer {height: 180px; padding-top: 30px;}
+    
+    .pop_up {top: 190px; max-width: 98%; margin: 0 1%; left: 0;}
+
+}
+
+@media (max-width: 400px) {
+
+    #container .section_top_txt {height: 110px;}
+    #container .section_top_txt .st_txt_01 {width: 85%;}
+    #container #main_visual {padding-top: 110px;}
+    .itrd_wrap .itrd_ctt_box .itrd_ctt_txt .itrd_ctt_p {padding-left: 8%;}
+    .itrd_wrap .itrd_ctt_box .itrd_ctt_txt span {padding: 0 12px;}
+    .itrd_wrap .itrd_ctt_box .itrd_ctt_txt span.on {padding: 0 12px;}
+
+}
